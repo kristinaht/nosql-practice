@@ -4,7 +4,8 @@ import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
   formVisibleOnPage: formVisibleReducer,
-  masterTicketList: ticketListReducer
+  masterTicketList: ticketListReducer,
+  firestore: firestoreReducer
 });
 
 export default rootReducer;
